@@ -34,9 +34,9 @@ const Topnav = () => {
         
          <DropdownTopnav/>
 
-         <li class="nav-item dropdown">
-            <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="ni ni-ungroup"></i>
+         <li className="nav-item dropdown">
+            <a className="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i className="ni ni-ungroup"></i>
             </a>
         
             <IconosNavtop/>

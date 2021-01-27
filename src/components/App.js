@@ -7,7 +7,7 @@ import {
 import './App.css';
 import Navbar from './menu/Navbar'
 //Paginas
-import Home from "./pages/index"
+import Home from "./pages/home"
 
 function App() {
   return (
