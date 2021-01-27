@@ -1,0 +1,45 @@
+{
+    "avatar": [
+        {   "id":0 ,
+            "titulo":"John Snow",
+            "tiempo":"2 hrs ago",
+             "texto":"Let's meet at Starbucks at 11:30. Wdyt?",
+             "img":"./assets/img/theme/team-1.jpg"
+             
+        },
+ 
+        {
+         "id":1,  
+         "titulo":"Samanta",
+         "tiempo":"3 hrs ago",
+         "texto":"A new issue has been reported for Argon.",
+         "img":"./assets/img/theme/team-2.jpg"
+      },
+
+      {
+        "id":2,  
+        "titulo":"Tony",
+        "tiempo":"4 hrs ago",
+        "texto":"Hi!",
+        "img":"./assets/img/theme/team-3.jpg"
+     },
+
+     {
+        "id":3,  
+        "titulo":"Oscar",
+        "tiempo":".5 hrs ago",
+        "texto":"Your posts have been liked a lot.",
+        "img":"./assets/img/theme/team-4.jpg"
+     },
+
+     {
+        "id":4,  
+        "titulo":"Steve",
+        "tiempo":"2 hrs ago",
+        "texto":"Let's meet at Starbucks at 11:30. Wdyt?",
+        "img":"./assets/img/theme/team-1.jpg"
+     }
+
+
+    ]
+}
