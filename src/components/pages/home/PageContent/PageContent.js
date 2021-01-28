@@ -1,69 +1,34 @@
 import React from 'react';
+import Columna2a from './Columna2a';
+import Columna2b from './Columna2b';
+import Columna2c from './Columna2c';
+import SalesValue from './SalesValue';
+import TotalOrders from './TotalOrders'
 
 const PageContent = () => {
     return (
         <>
       <div className="container-fluid mt--6">
       <div className="row">
-      <div className="col-xl-8">
-          <div className="card bg-default">
-            <div className="card-header bg-transparent">
-              <div className="row align-items-center">
-                <div className="col">
-                  <h6 className="text-light text-uppercase ls-1 mb-1">Overview</h6>
-                  <h5 className="h3 text-white mb-0">Sales value</h5>
-                </div>
-                <div className="col">
-                  <ul className="nav nav-pills justify-content-end">
-                    <li className="nav-item mr-2 mr-md-0" data-toggle="chart" data-target="#chart-sales-dark" data-update='{"data":{"datasets":[{"data":[0, 20, 10, 30, 15, 40, 20, 60, 60]}]}}' data-prefix="$" data-suffix="k">
-                      <a href="#" className="nav-link py-2 px-3 active" data-toggle="tab">
-                        <span className="d-none d-md-block">Month</span>
-                        <span className="d-md-none">M</span>
-                      </a>
-                    </li>
-                    <li className="nav-item" data-toggle="chart" data-target="#chart-sales-dark" data-update='{"data":{"datasets":[{"data":[0, 20, 5, 25, 10, 30, 15, 40, 40]}]}}' data-prefix="$" data-suffix="k">
-                      <a href="#" className="nav-link py-2 px-3" data-toggle="tab">
-                        <span className="d-none d-md-block">Week</span>
-                        <span className="d-md-none">W</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="card-body">
-             
-              <div className="chart">
-                
-                <canvas id="chart-sales-dark" className="chart-canvas"></canvas>
-              </div>
-            </div>
-          </div>
-        </div>
+     
+       <SalesValue/>
+        
+       <TotalOrders/>
+     </div>
 
-        <div className="col-xl-4">
-          <div className="card">
-            <div className="card-header bg-transparent">
-              <div className="row align-items-center">
-                <div className="col">
-                  <h6 className="text-uppercase text-muted ls-1 mb-1">Performance</h6>
-                  <h5 className="h3 mb-0">Total orders</h5>
-                </div>
-              </div>
-            </div>
-            <div className="card-body">
-              
-              <div className="chart">
-                <canvas id="chart-bars" className="chart-canvas"></canvas>
-              </div>
-            </div>
-          </div>
-        </div>
+     <div class="row">
+        <div class="col-xl-4">
+         <Columna2a/>
+         </div> 
+         <div class="col-xl-4">
+         <Columna2b/>
+         </div>  
+         <div class="col-xl-4">
+         <Columna2c/>
+         </div>   
+      </div> 
 
-
-
-      </div>
-      </div>    
+    </div>    
         </>
     );
 };
