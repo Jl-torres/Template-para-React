@@ -1,0 +1,17 @@
+/*.navMenu{
+      margin-left: -1.5rem;
+}
+
+.navMenu:hover{
+    margin-left:0;
+}*/
+
+.navbar::-webkit-scrollbar{
+    width: 4px;
+}
+
+.navbar::-webkit-scrollbar-thumb{
+    background:rgb(223, 221, 221);
+    border-radius: 10px;
+    border-radius: 2px solid white;
+}

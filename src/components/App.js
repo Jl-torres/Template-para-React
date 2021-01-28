@@ -6,6 +6,7 @@ import {
 
 import './App.css';
 import Navbar from './menu/Navbar'
+import Navbar2 from './menu2/Navbar2'
 //Paginas
 import Home from "./pages/home"
 
@@ -14,7 +15,7 @@ function App() {
     <>
      <Router>
        
-     <Navbar/>
+     <Navbar2/>
 
      <Switch>
      <Route path="/" exact component={Home}/>

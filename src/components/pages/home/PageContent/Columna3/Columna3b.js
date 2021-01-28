@@ -1,13 +1,11 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Thead from "./columna3b/Thead";
 import Tbody from "./columna3b/Tbody";
-import AddCredit from "./columna3b/AddCredit"
-import {TbodyJson} from "./columna3b/json/Tbody.json";
+import AddCredit from "./columna3b/AddCredit";
+import { TbodyJson } from "./columna3b/json/Tbody.json";
 
 const Columna3b = () => {
-
-    const [Lights, guardarLights] =useState(TbodyJson)   
-
+  const [Lights, guardarLights] = useState(TbodyJson);
 
   return (
     <>
@@ -22,25 +20,18 @@ const Columna3b = () => {
               <table className="table align-items-center table-flush">
                 <Thead />
 
-                <tbody class="list">
-
-                {Lights.map(Light => (
-                   <Tbody
-                   key={Light.id}
-                   Light={Light}/>
-                   
-               ))}
-
-                 </tbody>                   
+                <tbody className="list">
+                  {Lights.map((Light) => (
+                    <Tbody key={Light.id} Light={Light} />
+                  ))}
+                </tbody>
               </table>
             </div>
           </div>
         </div>
       </div>
-      
-        <AddCredit/>
 
-
+      <AddCredit />
     </>
   );
 };

@@ -1,6 +1,5 @@
-import React, { Fragment } from "react";
-//import { Link } from "react-router-dom";
-//Componentes
+import React from "react";
+
 import Logo from "./elementos/Logo";
 //li
 import Dashboardsli from "./elementos/li/Dashboards-li";
@@ -10,22 +9,24 @@ import Formsli from "./elementos/li/Forms-li";
 import Tablesli from "./elementos/li/tables-li";
 import Otrosli from "./elementos/li/Otros-li";
 import Documentationli from "./elementos/li/Documentation-li";
+//css
+import './navbar.css'
 
 const Navbar = () => {
   return (
-    <Fragment>
+    <div>
       <nav
-        className="sidenav navbar navbar-vertical  fixed-left  navbar-expand-xs navbar-light bg-white"
+        className="menu sidenav navbar navbar-vertical  fixed-left  navbar-expand-xs navbar-light bg-white"
         id="sidenav-main"
       >
-        <div className="scrollbar-inner">
+        <div className="navbar ">
           <Logo />
           <div className="navbar-inner">
             <div
               className="collapse navbar-collapse"
               id="sidenav-collapse-main"
             >
-              <ul className="nav nav-sm flex-column">
+              <ul className="navMenu nav nav-sm flex-column">
                 <Dashboardsli />
 
                 <Examplesli />
@@ -51,7 +52,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-    </Fragment>
+    </div>
   );
 };
 

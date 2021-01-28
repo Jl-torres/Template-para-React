@@ -45,11 +45,11 @@ const PageContent = () => {
          </div>    
       </div> 
     
-      <div class="row">
-        <div class="col-xl-8">
+      <div className="row">
+        <div className="col-xl-8">
         <Columna4a/>
         </div>
-        <div class="col-xl-4">
+        <div className="col-xl-4">
         <Columna4b/>
         </div>  
       </div>
