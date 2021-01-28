@@ -1,32 +1,58 @@
 import React from 'react';
-import Columna2a from './Columna2a';
-import Columna2b from './Columna2b';
-import Columna2c from './Columna2c';
-import SalesValue from './SalesValue';
-import TotalOrders from './TotalOrders'
+//Columna1
+import SalesValue from './Columna1/SalesValue';
+import TotalOrders from './Columna1/TotalOrders';
+//Columna2
+import Columna2a from './Columna2/Columna2a';
+import Columna2b from './Columna2/Columna2b';
+import Columna2c from './Columna2/Columna2c';
+//Columna3
+import Columna3a from './Columna3/Columna3a';
+import Columna3b from './Columna3/Columna3b';
+//Columna4
+import Columna4a from './Columna4/Columna4a';
+import Columna4b from './Columna4/Columna4b';
+
 
 const PageContent = () => {
     return (
         <>
       <div className="container-fluid mt--6">
-      <div className="row">
-     
+      <div className="row">  
        <SalesValue/>
         
        <TotalOrders/>
      </div>
 
-     <div class="row">
-        <div class="col-xl-4">
+     <div className="row">
+        <div className="col-xl-4">
          <Columna2a/>
          </div> 
-         <div class="col-xl-4">
+         <div className="col-xl-4">
          <Columna2b/>
          </div>  
-         <div class="col-xl-4">
+         <div className="col-xl-4">
          <Columna2c/>
          </div>   
       </div> 
+
+      <div className="row">
+        <div className="col-xl-5">
+         <Columna3a/>
+         </div> 
+         <div className="col-xl-7">
+         <Columna3b/>
+         </div>    
+      </div> 
+    
+      <div class="row">
+        <div class="col-xl-8">
+        <Columna4a/>
+        </div>
+        <div class="col-xl-4">
+        <Columna4b/>
+        </div>  
+      </div>
 
     </div>    
         </>
