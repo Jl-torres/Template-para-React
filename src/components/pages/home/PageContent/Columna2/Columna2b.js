@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Columna2b = () => {
   //Listado tareas
-  const [tareas, guardarTareas] = useState([
+  const [tareas] = useState([
     {
       id: "0",
       titulo: "Call with Dave",
@@ -62,6 +62,7 @@ const Columna2b = () => {
                         id="chk-todo-task-1"
                         type="checkbox"
                         checked
+                        readOnly
                       />
                       <label
                         className="custom-control-label"

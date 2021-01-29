@@ -1,6 +1,7 @@
 import React from "react";
 
 const Buscador = () => {
+
   return (
     <>
       <form
@@ -14,7 +15,7 @@ const Buscador = () => {
                 <i className="fas fa-search"></i>
               </span>
             </div>
-            <input className="form-control" placeholder="Search" type="text" />
+            <input  className="form-control" placeholder="Search" type="text"/>
           </div>
         </div>
         <button

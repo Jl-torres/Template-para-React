@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { avatar } from "./data/Avatar.json";
 
 const DropdownTopnav = () => {
-  const [avatares, guardarAvatares] = useState({ avatar });
+  
+  useState({ avatar });
 
   return (
     <>
