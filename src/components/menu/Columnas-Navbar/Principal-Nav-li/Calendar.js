@@ -6,7 +6,7 @@ const Calendar = () => {
       <li className="nav-item">
         <a className="nav-link" href="../../pages/calendar.html">
           <i className="ni ni-calendar-grid-58 text-red"></i>
-          <span className="nav-link-text">Calendar</span>
+          <span id="click" className="nav-link-text">Calendar</span>
         </a>
       </li>
     </>

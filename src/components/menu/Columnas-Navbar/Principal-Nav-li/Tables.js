@@ -6,7 +6,7 @@ const Tables = () => {
       <li className="nav-item">
               <a className="nav-link" href="#navbar-tables" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-tables">
                 <i className="ni ni-align-left-2 text-default"></i>
-                <span className="nav-link-text">Tables</span>
+                <span id="click" className="nav-link-text">Tables</span>
               </a>
               <div className="collapse" id="navbar-tables">
                 <ul className="nav nav-sm flex-column">

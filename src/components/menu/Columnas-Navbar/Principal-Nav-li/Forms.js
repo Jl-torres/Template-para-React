@@ -13,7 +13,7 @@ const Forms = () => {
           aria-controls="navbar-forms"
         >
           <i className="ni ni-single-copy-04 text-pink"></i>
-          <span className="nav-link-text">Forms</span>
+          <span id="click" className="nav-link-text">Forms</span>
         </a>
         <div className="collapse" id="navbar-forms">
           <ul className="nav nav-sm flex-column">

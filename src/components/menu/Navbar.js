@@ -22,9 +22,9 @@ const Navbar2 = () => {
 
               <hr className="my-3" />
 
-              <h6 className="navbar-heading p-0 text-muted">
-                <span className="docs-normal">Documentation</span>
-                <span className="docs-mini">D</span>
+              <h6 className="D navbar-heading p-0 text-muted">
+              <span id="Documents" className="docsMini ocultar">D</span>
+                <span id="click" className="docs-normal">Documentation</span>
               </h6>
               
               <ul className="navbar-nav mb-md-3">

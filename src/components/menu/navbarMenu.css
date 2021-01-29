@@ -7,3 +7,56 @@
     border-radius: 10px;
     
 }
+
+/*Lista*/
+
+.ocultar{
+    opacity: 0;;
+}
+
+nav:hover .docsMini{
+    opacity: 0;
+}
+
+.D{
+    display: flex;
+}
+
+.j{
+    margin-left:12px;
+}
+
+nav:hover .jh {
+    opacity: 0;
+}
+
+.nav-link-text-menu {
+    opacity: 0 !important;
+}
+
+nav:hover .nav-link-text-menu {
+    opacity: 1 !important;
+}
+
+/*Logo*/
+
+.navTop{
+   position: absolute;
+   right:0;
+   top:10px; 
+   
+}
+
+nav:hover .navTop {
+    position: absolute;
+    left:190px;
+    margin-right: 0 !important;
+}
+
+.logo {
+    opacity: 0;
+}
+
+nav:hover .logo{
+    opacity:1;
+}

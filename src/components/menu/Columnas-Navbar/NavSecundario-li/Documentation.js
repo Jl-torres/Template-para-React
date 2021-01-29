@@ -10,7 +10,7 @@ const Documentation = () => {
           target="_blank"
         >
           <i className="ni ni-spaceship"></i>
-          <span className="nav-link-text">Getting started</span>
+          <span id="click" className="nav-link-text nav-link-text-menu">Getting started</span>
         </a>
       </li>
       <li className="nav-item">
@@ -20,7 +20,7 @@ const Documentation = () => {
           target="_blank"
         >
           <i className="ni ni-palette"></i>
-          <span className="nav-link-text">Foundation</span>
+          <span id="click" className="nav-link-text nav-link-text-menu">Foundation</span>
         </a>
       </li>
       <li className="nav-item">
@@ -30,7 +30,7 @@ const Documentation = () => {
           target="_blank"
         >
           <i className="ni ni-ui-04"></i>
-          <span className="nav-link-text">Components</span>
+          <span id="click" className="nav-link-text nav-link-text-menu">Components</span>
         </a>
       </li>
       <li className="nav-item">
@@ -40,7 +40,7 @@ const Documentation = () => {
           target="_blank"
         >
           <i className="ni ni-chart-pie-35"></i>
-          <span className="nav-link-text">Plugins</span>
+          <span id="click" className="nav-link-text nav-link-text-menu">Plugins</span>
         </a>
       </li>
     </>

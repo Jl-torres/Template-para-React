@@ -13,7 +13,7 @@ const Maps = () => {
           aria-controls="navbar-maps"
         >
           <i className="ni ni-map-big text-primary"></i>
-          <span className="nav-link-text">Maps</span>
+          <span id="click" className="nav-link-text">Maps</span>
         </a>
         <div className="collapse" id="navbar-maps">
           <ul className="nav nav-sm flex-column">

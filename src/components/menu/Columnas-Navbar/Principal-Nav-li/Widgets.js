@@ -6,7 +6,7 @@ const Widgets = () => {
        <li className="nav-item">
               <a className="nav-link" href="../../pages/widgets.html">
                 <i className="ni ni-archive-2 text-green"></i>
-                <span className="nav-link-text">Widgets</span>
+                <span id="click" className="nav-link-text">Widgets</span>
               </a>
             </li>
        
