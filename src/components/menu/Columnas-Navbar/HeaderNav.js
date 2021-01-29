@@ -35,12 +35,17 @@ const HeaderNav = () => {
     document.getElementById("boton").classList.add ("navTop");
     document.getElementById("logo").classList.add ("logo");
     document.getElementById("Documents").classList.remove ("ocultar");
+    document.getElementById("paginaPrincipal").classList.remove ("Paginasmall");
+    document.getElementById("paginaPrincipal").classList.add ("Pagina");
+ 
 
   } else {
 
     document.getElementById("boton").classList.remove ("navTop");
     document.getElementById("logo").classList.remove ("logo");
     document.getElementById("Documents").classList.add ("ocultar");
+    document.getElementById("paginaPrincipal").classList.add ("Paginasmall");
+    document.getElementById("paginaPrincipal").classList.remove ("Pagina");
   };
 
 //Sub Titulos  

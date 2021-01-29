@@ -6,7 +6,7 @@ import Footer from '../../Footer/Footer'
 
 const Home = () => {
     return (
-        <>
+        <div id="paginaPrincipal" className="Paginasmall">
         <Topnav/>
         
         <HeaderHome/>
@@ -15,7 +15,7 @@ const Home = () => {
 
         <Footer/>
         
-        </>
+        </div>
     );
 };
 

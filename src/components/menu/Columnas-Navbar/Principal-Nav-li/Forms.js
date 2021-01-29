@@ -19,20 +19,20 @@ const Forms = () => {
           <ul className="nav nav-sm flex-column">
             <li className="nav-item">
               <a href="../../pages/forms/elements.html" className="nav-link">
-                <span className="sidenav-mini-icon"> E </span>
-                <span className="sidenav-normal"> Elements </span>
+                <span id="Sub"  className="j jh sidenav-mini-iconj"> E </span>
+                <span id="click" className="j sidenav-normal"> Elements </span>
               </a>
             </li>
             <li className="nav-item">
               <a href="../../pages/forms/components.html" className="nav-link">
-                <span className="sidenav-mini-icon"> C </span>
-                <span className="sidenav-normal"> Components </span>
+                <span id="Sub"  className="j jh sidenav-mini-iconj"> C </span>
+                <span id="click" className="j sidenav-normal"> Components </span>
               </a>
             </li>
             <li className="nav-item">
               <a href="../../pages/forms/validation.html" className="nav-link">
-                <span className="sidenav-mini-icon"> V </span>
-                <span className="sidenav-normal"> Validation </span>
+                <span id="Sub"  className="j jh sidenav-mini-iconj"> V </span>
+                <span id="click"  className="j sidenav-normal"> Validation </span>
               </a>
             </li>
           </ul>

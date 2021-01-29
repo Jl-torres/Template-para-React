@@ -60,3 +60,15 @@ nav:hover .navTop {
 nav:hover .logo{
     opacity:1;
 }
+
+/*Cuerpo de la Pagina*/
+
+.Pagina {
+    margin-left:3%; 
+    background:#f8f9fe;
+  }
+
+.Paginasmall{
+    margin-left: 15%;
+    background:#f8f9fe;
+}  

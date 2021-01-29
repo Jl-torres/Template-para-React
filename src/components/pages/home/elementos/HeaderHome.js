@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import Cardsheader from "./cardsheader";
+import './headerHome.css'
 
 const HeaderHome = () => {
   //Listado Card
-  const [cards, guardarCards] = useState([
+  const [cards] = useState([
     {
       id: "0",
       titulo: "Total traffic",

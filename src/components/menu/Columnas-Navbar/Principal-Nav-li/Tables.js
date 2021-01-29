@@ -12,20 +12,20 @@ const Tables = () => {
                 <ul className="nav nav-sm flex-column">
                   <li className="nav-item">
                     <a href="../../pages/tables/tables.html" className="nav-link">
-                      <span className="sidenav-mini-icon"> T </span>
-                      <span className="sidenav-normal"> Tables </span>
+                      <span id="Sub" className="j jh sidenav-mini-iconj"> T </span>
+                      <span id="click" className="j sidenav-normal"> Tables </span>
                     </a>
                   </li>
                   <li className="nav-item">
                     <a href="../../pages/tables/sortable.html" className="nav-link">
-                      <span className="sidenav-mini-icon"> S </span>
-                      <span className="sidenav-normal"> Sortable </span>
+                      <span id="Sub" className="j jh sidenav-mini-iconj"> S </span>
+                      <span id="click" className="j sidenav-normal"> Sortable </span>
                     </a>
                   </li>
                   <li className="nav-item">
                     <a href="../../pages/tables/datatables.html" className="nav-link">
-                      <span className="sidenav-mini-icon"> D </span>
-                      <span className="sidenav-normal"> Datatables </span>
+                      <span id="Sub" className="j jh sidenav-mini-iconj"> D </span>
+                      <span id="click" className="j sidenav-normal"> Datatables </span>
                     </a>
                   </li>
                 </ul>

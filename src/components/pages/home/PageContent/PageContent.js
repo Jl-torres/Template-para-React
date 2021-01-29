@@ -12,12 +12,12 @@ import Columna3b from './Columna3/Columna3b';
 //Columna4
 import Columna4a from './Columna4/Columna4a';
 import Columna4b from './Columna4/Columna4b';
-
+import './pageContent.css'
 
 const PageContent = () => {
     return (
         <>
-      <div className="container-fluid mt--6">
+      <div className="container-fluid mt--6 espaciadoPagina">
       <div className="row">  
        <SalesValue/>
         

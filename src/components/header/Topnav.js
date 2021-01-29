@@ -9,7 +9,7 @@ import './topnav.css'
 const Topnav = () => {
     return (
         <>
-      <nav className="navbar navbar-top navbar-expand navbar-dark bg-primary border-bottom">
+      <nav className="topnav navbar navbar-top navbar-expand navbar-dark bg-primary border-bottom">
         <div className="container-fluid">
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
         
