@@ -4,7 +4,7 @@ import React, {useState} from 'react';
 
 const Columna2a = () => {
   //Listado miembros
-  const [members, guardarMembers] = useState([
+  const [members] = useState([
     {
       id: "0",
       titulo: "John Michael",
@@ -44,13 +44,13 @@ const Columna2a = () => {
               <li key={member.id} className="list-group-item px-0">
                 <div className="row align-items-center">
                   <div className="col-auto">
-                    <a href="#" className="avatar rounded-circle">
-                      <img alt="Image placeholder" src={member.imagen} />
+                    <a href="../../../App" className="avatar rounded-circle">
+                      <img alt="placeholder" src={member.imagen} />
                     </a>
                   </div>
                   <div className="col ml--2">
                     <h4 className="mb-0">
-                      <a href="#!">{member.titulo}</a>
+                      <a href="../../../App">{member.titulo}</a>
                     </h4>
                     <span className="text-success">●</span>
                     <small>{member.estado}</small>

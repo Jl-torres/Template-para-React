@@ -24,7 +24,7 @@ const SalesValue = () => {
                     data-suffix="k"
                   >
                     <a
-                      href="#"
+                      href="../../../App"
                       className="nav-link py-2 px-3 active"
                       data-toggle="tab"
                     >
@@ -41,7 +41,7 @@ const SalesValue = () => {
                     data-suffix="k"
                   >
                     <a
-                      href="#"
+                      href="../../../App"
                       className="nav-link py-2 px-3"
                       data-toggle="tab"
                     >

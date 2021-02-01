@@ -9,7 +9,7 @@ const UsuariosNavtop = () => {
         <li className="nav-item dropdown">
           <a
             className="nav-link pr-0"
-            href="#"
+            href="../../App"
             role="button"
             data-toggle="dropdown"
             aria-haspopup="true"
@@ -17,7 +17,7 @@ const UsuariosNavtop = () => {
           >
             <div className="media align-items-center">
               <span className="avatar avatar-sm rounded-circle">
-                <img alt="Image placeholder" src={team1} />
+                <img alt="placeholder" src={team1} />
               </span>
               <div className="media-body  ml-2  d-none d-lg-block">
                 <span className="mb-0 text-sm  font-weight-bold">
@@ -30,24 +30,24 @@ const UsuariosNavtop = () => {
             <div className="dropdown-header noti-title">
               <h6 className="text-overflow m-0">Welcome!</h6>
             </div>
-            <a href="#!" className="dropdown-item">
+            <a href="../../App" className="dropdown-item">
               <i className="ni ni-single-02"></i>
               <span>My profile</span>
             </a>
-            <a href="#!" className="dropdown-item">
+            <a href="../../App" className="dropdown-item">
               <i className="ni ni-settings-gear-65"></i>
               <span>Settings</span>
             </a>
-            <a href="#!" className="dropdown-item">
+            <a href="../../App" className="dropdown-item">
               <i className="ni ni-calendar-grid-58"></i>
               <span>Activity</span>
             </a>
-            <a href="#!" className="dropdown-item">
+            <a href="../../App" className="dropdown-item">
               <i className="ni ni-support-16"></i>
               <span>Support</span>
             </a>
             <div className="dropdown-divider"></div>
-            <a href="#!" className="dropdown-item">
+            <a href="../../App" className="dropdown-item">
               <i className="ni ni-user-run"></i>
               <span>Logout</span>
             </a>

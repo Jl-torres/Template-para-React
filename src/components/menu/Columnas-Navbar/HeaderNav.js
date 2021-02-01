@@ -20,10 +20,10 @@ const HeaderNav = () => {
       contador=1
 
     } else {
-      var cambio = document.querySelectorAll("#click");
+       cambio = document.querySelectorAll("#click");
     
 
-    for(var i = 0; i< cambio.length; i++)
+    for( i = 0; i< cambio.length; i++)
     {
       cambio[i].classList.add("nav-link-text-menu")};
 
@@ -54,19 +54,19 @@ if(contador===0) {
 
   var cambioSub = document.querySelectorAll("#Sub");
 
-  for(var i = 0; i< cambioSub.length; i++)
+  for(var ib = 0; ib< cambioSub.length; ib++)
     {
-      cambioSub[i].classList.remove("ocultar")
+      cambioSub[ib].classList.remove("ocultar")
     };
 
 
 } else {
 
-  var cambioSub = document.querySelectorAll("#Sub");
+   cambioSub = document.querySelectorAll("#Sub");
     
-  for(var i = 0; i< cambioSub.length; i++)
+  for( ib = 0; ib< cambioSub.length; ib++)
   {
-    cambioSub[i].classList.add("ocultar")};
+    cambioSub[ib].classList.add("ocultar")};
 
 };
   
@@ -99,14 +99,3 @@ if(contador===0) {
 export default HeaderNav;
 
 
-/*
-const btnNav = () => {
-    var cambio = document.querySelectorAll("#click");
-    console.log(cambio.length)
-
-    for(var i = 0; i< cambio.length; i++)
-    {
-      cambio[i].classList.remove("nav-link-text-menu")
-    }
-  }
-*/

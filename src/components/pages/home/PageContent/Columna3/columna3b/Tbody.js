@@ -2,7 +2,7 @@ import React from "react";
 
 const Tbody = ({Light}) => {
 
-  const {id, titulo, budget, status, imagen, statusi } = Light
+  const {titulo, budget, status, imagen, statusi } = Light
 
 
   return (
@@ -10,9 +10,9 @@ const Tbody = ({Light}) => {
       <tr>
         <th scope="row">
           <div className="media align-items-center">
-            <a href="#" className="avatar rounded-circle mr-3">
+            <a href="../../../App" className="avatar rounded-circle mr-3">
               <img
-                alt="Image placeholder"
+                alt="placeholder"
                 src={imagen}
               />
             </a>
@@ -31,46 +31,46 @@ const Tbody = ({Light}) => {
         <td>
           <div className="avatar-group">
             <a
-              href="#"
+              href="../../../App"
               className="avatar avatar-sm rounded-circle"
               data-toggle="tooltip"
               data-original-title="Ryan Tompson"
             >
               <img
-                alt="Image placeholder"
+                alt="placeholder"
                 src="../../assets/img/theme/team-1.jpg"
               />
             </a>
             <a
-              href="#"
+              href="../../../App"
               className="avatar avatar-sm rounded-circle"
               data-toggle="tooltip"
               data-original-title="Romina Hadid"
             >
               <img
-                alt="Image placeholder"
+                alt="placeholder"
                 src="../../assets/img/theme/team-2.jpg"
               />
             </a>
             <a
-              href="#"
+              href="../../../App"
               className="avatar avatar-sm rounded-circle"
               data-toggle="tooltip"
               data-original-title="Alexander Smith"
             >
               <img
-                alt="Image placeholder"
+                alt=" placeholder"
                 src="../../assets/img/theme/team-3.jpg"
               />
             </a>
             <a
-              href="#"
+              href="../../../App"
               className="avatar avatar-sm rounded-circle"
               data-toggle="tooltip"
               data-original-title="Jessica Doe"
             >
               <img
-                alt="Image placeholder"
+                alt="placeholder"
                 src="../../assets/img/theme/team-4.jpg"
               />
             </a>
@@ -97,7 +97,7 @@ const Tbody = ({Light}) => {
           <div className="dropdown">
             <a
               className="btn btn-sm btn-icon-only text-light"
-              href="#"
+              href="../../../App"
               role="button"
               data-toggle="dropdown"
               aria-haspopup="true"
@@ -106,13 +106,13 @@ const Tbody = ({Light}) => {
               <i className="fas fa-ellipsis-v"></i>
             </a>
             <div className="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
-              <a className="dropdown-item" href="#">
+              <a className="dropdown-item" href="../../../App">
                 Action
               </a>
-              <a className="dropdown-item" href="#">
+              <a className="dropdown-item" href="../../../App">
                 Another action
               </a>
-              <a className="dropdown-item" href="#">
+              <a className="dropdown-item" href="../../../App">
                 Something else here
               </a>
             </div>

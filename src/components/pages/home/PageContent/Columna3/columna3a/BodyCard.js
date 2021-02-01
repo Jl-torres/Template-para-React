@@ -9,7 +9,7 @@ const BodyCard = () => {
         telling them from the off exactly why they should hire you.
       </p>
       <img
-        alt="Image placeholder"
+        alt="placeholder"
         src="../../assets/img/theme/img-1-1000x600.jpg"
         className="img-fluid rounded"
       />
@@ -17,15 +17,15 @@ const BodyCard = () => {
       <div className="row align-items-center my-3 pb-3 border-bottom">
         <div className="col-sm-6">
           <div className="icon-actions">
-            <a href="#" className="like active">
+            <a href="../../../App" className="like active">
               <i className="ni ni-like-2"></i>
               <span className="text-muted">150</span>
             </a>
-            <a href="#">
+            <a href="../../../App">
               <i className="ni ni-chat-round"></i>
               <span className="text-muted">36</span>
             </a>
-            <a href="#">
+            <a href="../../../App">
               <i className="ni ni-curved-next"></i>
               <span className="text-muted">12</span>
             </a>
@@ -35,37 +35,37 @@ const BodyCard = () => {
           <div className="d-flex align-items-center justify-content-sm-end">
             <div className="avatar-group">
               <a
-                href="#"
+                href="../../../App"
                 className="avatar avatar-xs rounded-circle"
                 data-toggle="tooltip"
                 data-original-title="Jessica Rowland"
               >
                 <img
-                  alt="Image placeholder"
+                  alt=" placeholder"
                   src="../../assets/img/theme/team-1.jpg"
                   className=""
                 />
               </a>
               <a
-                href="#"
+                href="../../../App"
                 className="avatar avatar-xs rounded-circle"
                 data-toggle="tooltip"
                 data-original-title="Audrey Love"
               >
                 <img
-                  alt="Image placeholder"
+                  alt=" placeholder"
                   src="../../assets/img/theme/team-2.jpg"
                   className="rounded-circle"
                 />
               </a>
               <a
-                href="#"
+                href="../../../App"
                 className="avatar avatar-xs rounded-circle"
                 data-toggle="tooltip"
                 data-original-title="Michael Lewis"
               >
                 <img
-                  alt="Image placeholder"
+                  alt=" placeholder"
                   src="../../assets/img/theme/team-3.jpg"
                   className="rounded-circle"
                 />

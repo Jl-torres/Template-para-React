@@ -36,7 +36,7 @@ const AddCredit = () => {
           <div className="card-body">
             <div className="row justify-content-between align-items-center">
               <div className="col">
-                <img src="../../assets/img/icons/cards/bitcoin.png" alt="Image placeholder" />
+                <img src="../../assets/img/icons/cards/bitcoin.png" alt="placeholder" />
               </div>
               <div className="col-auto">
                 <span className="badge badge-lg badge-success">Active</span>

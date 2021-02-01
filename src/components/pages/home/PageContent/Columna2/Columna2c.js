@@ -3,7 +3,7 @@ import "./columna2c.css";
 
 const Columna2c = () => {
   //Listado progreso
-  const [progreso, guardarProgreso] = useState([
+  const [progreso] = useState([
     {
       id: "0",
       titulo: "Argon Design System",
@@ -42,8 +42,8 @@ const Columna2c = () => {
               <li key={avance.id} className="list-group-item px-0">
                 <div className="row align-items-center">
                   <div className="col-auto">
-                    <a href="#" className="avatar rounded-circle">
-                      <img alt="Image placeholder" src={avance.imagen} />
+                    <a href="../../../App" className="avatar rounded-circle">
+                      <img alt="placeholder" src={avance.imagen} />
                     </a>
                   </div>
                   <div className="col">

@@ -54,12 +54,12 @@ const HeaderHome = () => {
                 >
                   <ol className="breadcrumb breadcrumb-links breadcrumb-dark">
                     <li className="breadcrumb-item">
-                      <a href="#">
+                      <a href="../../App">
                         <i className="fas fa-home"></i>
                       </a>
                     </li>
                     <li className="breadcrumb-item">
-                      <a href="#">Dashboards</a>
+                      <a href="../../App">Dashboards</a>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       Default
@@ -68,10 +68,10 @@ const HeaderHome = () => {
                 </nav>
               </div>
               <div className="col-lg-6 col-5 text-right">
-                <a href="#" className="btn btn-sm btn-neutral">
+                <a href="../../App" className="btn btn-sm btn-neutral">
                   New
                 </a>
-                <a href="#" className="btn btn-sm btn-neutral">
+                <a href="../../App" className="btn btn-sm btn-neutral">
                   Filters
                 </a>
               </div>

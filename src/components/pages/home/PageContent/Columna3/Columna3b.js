@@ -5,7 +5,7 @@ import AddCredit from "./columna3b/AddCredit";
 import { TbodyJson } from "./columna3b/json/Tbody.json";
 
 const Columna3b = () => {
-  const [Lights, guardarLights] = useState(TbodyJson);
+  const [Lights] = useState(TbodyJson);
 
   return (
     <>

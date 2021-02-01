@@ -6,7 +6,7 @@ const Comentarios = () => {
       <div className="mb-1">
         <div className="media media-comment">
           <img
-            alt="Image placeholder"
+            alt="placeholder"
             className="avatar avatar-lg media-comment-avatar rounded-circle"
             src="../../assets/img/theme/team-1.jpg"
           />
@@ -19,11 +19,11 @@ const Comentarios = () => {
                 turpis.
               </p>
               <div className="icon-actions">
-                <a href="#" className="like active">
+                <a href="../../../App" className="like active">
                   <i className="ni ni-like-2"></i>
                   <span className="text-muted">3 likes</span>
                 </a>
-                <a href="#">
+                <a href="../../../App">
                   <i className="ni ni-curved-next"></i>
                   <span className="text-muted">2 shares</span>
                 </a>
@@ -33,7 +33,7 @@ const Comentarios = () => {
         </div>
         <div className="media media-comment">
           <img
-            alt="Image placeholder"
+            alt="placeholder"
             className="avatar avatar-lg media-comment-avatar rounded-circle"
             src="../../assets/img/theme/team-2.jpg"
           />
@@ -46,11 +46,11 @@ const Comentarios = () => {
                 vulputate at, tempus viverra turpis.
               </p>
               <div className="icon-actions">
-                <a href="#" className="like active">
+                <a href="../../../App" className="like active">
                   <i className="ni ni-like-2"></i>
                   <span className="text-muted">10 likes</span>
                 </a>
-                <a href="#">
+                <a href="../../../App">
                   <i className="ni ni-curved-next"></i>
                   <span className="text-muted">1 share</span>
                 </a>
@@ -61,7 +61,7 @@ const Comentarios = () => {
         <hr />
         <div className="media align-items-center">
           <img
-            alt="Image placeholder"
+            alt="placeholder"
             className="avatar avatar-lg rounded-circle mr-4"
             src="../../assets/img/theme/team-3.jpg"
           />

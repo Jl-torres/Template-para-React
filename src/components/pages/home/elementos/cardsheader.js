@@ -1,7 +1,7 @@
 import React from "react";
 
 const Cardsheader = ({ card }) => {
-  const { id, titulo, cantidad, clase, color } = card;
+  const { titulo, cantidad, clase, color } = card;
 
   return (
     <>

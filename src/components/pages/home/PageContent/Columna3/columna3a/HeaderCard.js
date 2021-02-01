@@ -5,11 +5,11 @@ const HeaderCard = () => {
     <>
       <div className="card-header d-flex align-items-center">
         <div className="d-flex align-items-center">
-          <a href="#">
-            <img src="../../assets/img/theme/team-1.jpg" className="avatar" />
+          <a href="../../../App">
+            <img src="../../assets/img/theme/team-1.jpg" className="avatar" alt="team" />
           </a>
           <div className="mx-3">
-            <a href="#" className="text-dark font-weight-600 text-sm">
+            <a href="../../../App" className="text-dark font-weight-600 text-sm">
               John Snow
             </a>
             <small className="d-block text-muted">3 days ago</small>

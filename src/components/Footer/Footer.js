@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="copyright text-center  text-lg-left  text-muted">
               &copy; 2020{" "}
               <a
-                href="https://www.creative-tim.com"
+                href="../App"
                 className="font-weight-bold ml-1"
                 target="_blank"
               >
@@ -22,7 +22,7 @@ const Footer = () => {
             <ul className="nav nav-footer justify-content-center justify-content-lg-end">
               <li className="nav-item">
                 <a
-                  href="https://www.creative-tim.com"
+                  href="../App"
                   className="nav-link"
                   target="_blank"
                 >
@@ -31,7 +31,7 @@ const Footer = () => {
               </li>
               <li className="nav-item">
                 <a
-                  href="https://www.creative-tim.com/presentation"
+                  href="../App"
                   className="nav-link"
                   target="_blank"
                 >
@@ -40,7 +40,7 @@ const Footer = () => {
               </li>
               <li className="nav-item">
                 <a
-                  href="http://blog.creative-tim.com"
+                  href="../App"
                   className="nav-link"
                   target="_blank"
                 >
@@ -49,7 +49,7 @@ const Footer = () => {
               </li>
               <li className="nav-item">
                 <a
-                  href="https://www.creative-tim.com/license"
+                  href="../App"
                   className="nav-link"
                   target="_blank"
                 >

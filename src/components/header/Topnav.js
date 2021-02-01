@@ -27,7 +27,7 @@ const Topnav = () => {
            </li>
 
            <li className="nav-item d-sm-none">
-              <a className="nav-link" href="#" data-action="search-show" data-target="#navbar-search-main">
+              <a className="nav-link" href="../App" data-action="search-show" data-target="#navbar-search-main">
                 <i className="ni ni-zoom-split-in"></i>
               </a>
             </li>
@@ -35,7 +35,7 @@ const Topnav = () => {
          <DropdownTopnav/>
 
          <li className="nav-item dropdown">
-            <a className="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a className="nav-link" href="../App" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i className="ni ni-ungroup"></i>
             </a>
         

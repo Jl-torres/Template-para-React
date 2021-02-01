@@ -10,7 +10,7 @@ const DropdownTopnav = () => {
       <li className="nav-item dropdown">
         <a
           className="nav-link"
-          href="#"
+          href="../../App"
           role="button"
           data-toggle="dropdown"
           aria-haspopup="true"
@@ -29,11 +29,11 @@ const DropdownTopnav = () => {
 
           {avatar.map((avatar) => (
             <div key={avatar.id} className="list-group list-group-flush">
-              <a href="#" className="list-group-item list-group-item-action">
+              <a href="../../App" className="list-group-item list-group-item-action">
                 <div className="row align-items-center">
                   <div className="col-auto">
                     <img
-                      alt="Image placeholder"
+                      alt="placeholder"
                       src={avatar.img}
                       className="avatar rounded-circle"
                     />
@@ -55,7 +55,7 @@ const DropdownTopnav = () => {
           ))}
 
           <a
-            href="#"
+            href="../../App"
             className="dropdown-item text-center text-primary font-weight-bold py-3"
           >
             View all

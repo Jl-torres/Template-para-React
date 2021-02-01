@@ -6,7 +6,7 @@ const Documentation = () => {
       <li className="nav-item">
         <a
           className="nav-link"
-          href="https://demos.creative-tim.com/argon-dashboard-pro/docs/getting-started/overview.html"
+          href="../../../App "
           target="_blank"
         >
           <i className="ni ni-spaceship"></i>
@@ -16,7 +16,7 @@ const Documentation = () => {
       <li className="nav-item">
         <a
           className="nav-link"
-          href="https://demos.creative-tim.com/argon-dashboard-pro/docs/foundation/colors.html"
+          href="../../../App"
           target="_blank"
         >
           <i className="ni ni-palette"></i>
@@ -26,7 +26,7 @@ const Documentation = () => {
       <li className="nav-item">
         <a
           className="nav-link"
-          href="https://demos.creative-tim.com/argon-dashboard-pro/docs/components/alerts.html"
+          href="../../../App"
           target="_blank"
         >
           <i className="ni ni-ui-04"></i>
@@ -36,7 +36,7 @@ const Documentation = () => {
       <li className="nav-item">
         <a
           className="nav-link"
-          href="https://demos.creative-tim.com/argon-dashboard-pro/docs/plugins/charts.html"
+          href="../../../App"
           target="_blank"
         >
           <i className="ni ni-chart-pie-35"></i>
